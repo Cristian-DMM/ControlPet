@@ -1,0 +1,142 @@
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+    background: linear-gradient(135deg, #0EA5E9 0%, #03113f 100%);
+    color: #0a28cf;
+    min-height: 100vh;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    nav {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #3f0cf8;
+      font-weight: 500;
+      font-size: 0.95rem;
+    }
+    
+  .hero-content {
+  flex: 1 1 500px; /* Le permite ajustarse */
+  max-width: 50%;   /* Limita el texto a la mitad de la pantalla */
+}
+
+    .badge-urgencias {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: #0a16b9;
+      color: #e9e8f1;
+      padding: 0.4rem 1rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+    }
+
+    h1 {
+      font-size: 3rem;
+      line-height: 1.15;
+      color: #dfdaf1;
+      font-weight: 800;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-description {
+      color: #130b09;
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 2rem;
+      opacity: 0.9;
+    }
+
+    .info-card {
+      background-color: rgba(175, 166, 231, 0.7);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      padding: 2.5rem;
+      width: 500px;
+      flex-shrink: 0;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+    }
+
+    .status-badge {
+      font-size: 0.75rem;
+      color: #093594;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .info-card h2 {
+      font-size: 1.25rem;
+      color: #161010;
+      margin-bottom: 0.75rem;
+      font-weight: 700;
+    }
+
+    .info-card p {
+      font-size: 0.85rem;
+      color: #0a0a0e;
+      line-height: 1.4;
+      margin-bottom: 1.5rem;
+    }
+
+    .info-group {
+      margin-bottom: 1.2rem;
+    }
+
+    .info-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #340fdb;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+
+    .info-value {
+      font-size: 0.85rem;
+      color: #3610df;
+      font-weight: 500;
+    }
+
+    .hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main.hero-container {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  padding: 40px 20px !important;
+}
+ .hero-description {
+  color: #100c30;
+  font-weight: bold;
+ }
+
