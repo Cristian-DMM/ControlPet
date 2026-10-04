@@ -139,4 +139,55 @@ main.hero-container {
   color: #100c30;
   font-weight: bold;
  }
+.servicios{
+    padding: 80px 10%;
+    background-color: #E2E8F0;
+    text-align: center;
+}
+
+.servicios h2{
+    font-size: 2.5rem;
+    color: #020617;
+    margin-bottom: 15px;
+}
+
+.subtitulo{
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #1E40AF;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.servicios-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card{
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(2, 6, 23, 0.1);
+    border-top: 5px solid #0EA5E9;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    border-top: 5px solid #1E40AF;
+    box-shadow: 0 8px 20px rgba(30, 64, 175, 0.2);
+}
+
+.card h3{
+    color: #1E40AF;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+.card p{
+    color: #020617;
+    line-height: 1.6;
+}
 
