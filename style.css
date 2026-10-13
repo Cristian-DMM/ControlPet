@@ -1,0 +1,238 @@
+
+.acerca {
+    padding: 80px 20px;
+    background: #f7fbf8;
+    color: #293b32;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.etiqueta {
+    display: inline-block;
+    color: #23966e;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.acerca h1 {
+    max-width: 750px;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.15;
+    margin: 10px 0 25px;
+}
+
+.introduccion,
+.mascotas > p,
+.texto-historias,
+.preguntas > p {
+    max-width: 850px;
+    color: #59685f;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+ ESTADISTICAS
+
+.estadisticas {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 18px;
+    margin: 45px 0 70px;
+}
+
+.tarjeta-estadistica {
+    padding: 25px 15px;
+    text-align: center;
+    background: white;
+    border: 1px solid #e2eee6;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #183d2810;
+}
+
+.tarjeta-estadistica > span {
+    font-size: 28px;
+}
+
+.tarjeta-estadistica h2 {
+    color: #23966e;
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.tarjeta-estadistica p {
+    margin: 0;
+    color: #59685f;
+    font-size: 14px;
+}
+
+ CATEGORIAS DE MASCOTAS 
+
+.mascotas,
+.historias,
+.preguntas {
+    margin-top: 65px;
+}
+
+.mascotas h2,
+.historias h2,
+.preguntas h2 {
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.categorias-mascotas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 25px;
+}
+
+.categoria {
+    padding: 14px 24px;
+    background: white;
+    border: 1px solid #cfe6d8;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #247d5c;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.categoria:hover {
+    background: #23966e;
+    color: white;
+    transform: translateY(-2px);
+}
+
+ RESEÑAS
+
+.resenas {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 22px;
+    margin-top: 30px;
+}
+
+.tarjeta-resena {
+    padding: 28px;
+    background: white;
+    border: 1px solid #e2eee6;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #183d280b;
+}
+
+.estrellas {
+    color: #efa92d;
+    font-size: 22px;
+    letter-spacing: 3px;
+}
+
+.tarjeta-resena p {
+    color: #526158;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.tarjeta-resena h4 {
+    margin: 20px 0 5px;
+    color: #293b32;
+}
+
+.tarjeta-resena span {
+    color: #748278;
+    font-size: 14px;
+}
+
+ PREGUNTAS FRECUENTES
+
+.lista-preguntas {
+    margin-top: 30px;
+    max-width: 900px;
+}
+
+.lista-preguntas details {
+    margin-bottom: 14px;
+    padding: 20px 22px;
+    border: 1px solid #dce9df;
+    border-radius: 14px;
+    background: white;
+}
+
+.lista-preguntas summary {
+    color: #293b32;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1.5;
+}
+
+.lista-preguntas details p {
+    color: #59685f;
+    line-height: 1.8;
+    margin-bottom: 0;
+}
+
+ CONTACTO 
+
+.contacto-final {
+    margin-top: 45px;
+    padding: 35px;
+    text-align: center;
+    background: #e4f5e9;
+    border-radius: 20px;
+}
+
+.contacto-final h3 {
+    font-size: 26px;
+}
+
+.contacto-final p {
+    line-height: 1.7;
+}
+
+.boton-contacto {
+    display: inline-block;
+    padding: 14px 28px;
+    margin-top: 10px;
+    background: #23966e;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.boton-contacto:hover {
+    background: #187a57;
+}
+
+ ADAPTACION A CELULARES
+
+@media (max-width: 750px) {
+    .estadisticas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .resenas {
+        grid-template-columns: 1fr;
+    }
+
+    .acerca {
+        padding: 55px 18px;
+    }
+
+    .mascotas h2,
+    .historias h2,
+    .preguntas h2 {
+        font-size: 28px;
+    }
+
+    .contacto-final {
+        padding: 25px 18px;
+    }
+}
